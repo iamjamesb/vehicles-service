@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/jbuffill/projects/alten/vehicles/build/vehicles",
+  "command": "/usr/bin/g++  -Dvehicles_EXPORTS -I/home/jbuffill/projects/alten/vehicles/build/deploy/include -I/home/jbuffill/.ngrest/ngrest-build/deploy/include -I/home/jbuffill/projects/alten/vehicles/vehicles/src -I/home/jbuffill/projects/alten/vehicles/build/vehicles/codegen-ngrest-db   -std=gnu++11 -pedantic -Wall -g -fPIC   -o CMakeFiles/vehicles.dir/src/Vehicles.cpp.o -c /home/jbuffill/projects/alten/vehicles/vehicles/src/Vehicles.cpp",
+  "file": "/home/jbuffill/projects/alten/vehicles/vehicles/src/Vehicles.cpp"
+},
+{
+  "directory": "/home/jbuffill/projects/alten/vehicles/build/vehicles",
+  "command": "/usr/bin/g++  -Dvehicles_EXPORTS -I/home/jbuffill/projects/alten/vehicles/build/deploy/include -I/home/jbuffill/.ngrest/ngrest-build/deploy/include -I/home/jbuffill/projects/alten/vehicles/vehicles/src -I/home/jbuffill/projects/alten/vehicles/build/vehicles/codegen-ngrest-db   -std=gnu++11 -pedantic -Wall -g -fPIC   -o CMakeFiles/vehicles.dir/codegen/ServiceGroupImpl.cpp.o -c /home/jbuffill/projects/alten/vehicles/build/vehicles/codegen/ServiceGroupImpl.cpp",
+  "file": "/home/jbuffill/projects/alten/vehicles/build/vehicles/codegen/ServiceGroupImpl.cpp"
+},
+{
+  "directory": "/home/jbuffill/projects/alten/vehicles/build/vehicles",
+  "command": "/usr/bin/g++  -Dvehicles_EXPORTS -I/home/jbuffill/projects/alten/vehicles/build/deploy/include -I/home/jbuffill/.ngrest/ngrest-build/deploy/include -I/home/jbuffill/projects/alten/vehicles/vehicles/src -I/home/jbuffill/projects/alten/vehicles/build/vehicles/codegen-ngrest-db   -std=gnu++11 -pedantic -Wall -g -fPIC   -o CMakeFiles/vehicles.dir/codegen/VehiclesWrapper.cpp.o -c /home/jbuffill/projects/alten/vehicles/build/vehicles/codegen/VehiclesWrapper.cpp",
+  "file": "/home/jbuffill/projects/alten/vehicles/build/vehicles/codegen/VehiclesWrapper.cpp"
+},
+{
+  "directory": "/home/jbuffill/projects/alten/vehicles/build/vehicles",
+  "command": "/usr/bin/g++  -Dvehicles_EXPORTS -I/home/jbuffill/projects/alten/vehicles/build/deploy/include -I/home/jbuffill/.ngrest/ngrest-build/deploy/include -I/home/jbuffill/projects/alten/vehicles/vehicles/src -I/home/jbuffill/projects/alten/vehicles/build/vehicles/codegen-ngrest-db   -std=gnu++11 -pedantic -Wall -g -fPIC   -o CMakeFiles/vehicles.dir/codegen-ngrest-db/VehiclesEntities.cpp.o -c /home/jbuffill/projects/alten/vehicles/build/vehicles/codegen-ngrest-db/VehiclesEntities.cpp",
+  "file": "/home/jbuffill/projects/alten/vehicles/build/vehicles/codegen-ngrest-db/VehiclesEntities.cpp"
+}
+]

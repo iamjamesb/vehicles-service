@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+1b3135575908f3f2c00f9a4826c87d9b vehicles/codegen-ngrest-db/VehiclesEntities.h
+c72426ec7a99394fa8d3881863ab2edb vehicles/codegen/ServiceGroupImpl.h

@@ -1,0 +1,36 @@
+### Example client calls via curl
+
+## create vehicle and manufacturer table entries
+$ curl \
+    -d '{"vehicle":{"id":0,"color":"red","year":"2013","model":"328i","vin":"ABCD1234"}}' \
+    -H "Content-Type: application/json" \
+    -X POST \
+    http://localhost:9098/vehicles/BMW/Germany
+
+
+## create vehicle and manufacturer table entries
+$ curl \
+    -d '{"vehicle":{"id":0,"color":"blue","year":"2015","model":"model 3","vin":"CDAB3412"}}' \
+    -H "Content-Type: application/json" \
+    -X POST \
+    http://localhost:9098/vehicles/Tesla/US
+
+
+## retrieve all vehicles/mfr
+$ curl -X GET http://localhost:9098/vehicles/
+
+
+## retrieve vehicle/mfr per vehicle table id
+$ curl -X GET http://localhost:9098/vehicles/1
+
+
+## retrieve all vehicles/mfr per specified year
+$ curl -GET http://localhost:9098/vehicles/year/2015
+
+
+## retrieve all vehicles per specified manufacturer
+$ curl -GET http://localhost:9098/vehicles/make/BMW
+
+
+## delete vehicle/mfr per vehicle table id
+$ curl -X DELETE http://localhost:9098/vehicles/1
